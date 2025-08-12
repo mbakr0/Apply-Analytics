@@ -1,0 +1,15 @@
+# Core dependencies (required)
+streamlit
+pandas
+plotly
+imap-tools
+beautifulsoup4
+python-dotenv
+lxml
+
+# Optional AI dependencies (install as needed)
+# openai
+# transformers
+# torch
+# sentencepiece
+# streamlit-aggrid
