@@ -1,15 +1,10 @@
-# Email Configuration
+# Gmail
 GMAIL_EMAIL=your_email@gmail.com
 GMAIL_APP_PASSWORD=your_app_password
 
-# Outlook Configuration
-OUTLOOK_CLIENT_ID=your_outlook_client_id
-OUTLOOK_CLIENT_SECRET=your_outlook_client_secret
-OUTLOOK_REDIRECT_URI=http://localhost:8501
-
-# AI Configuration
+# Optional OpenAI classification
 OPENAI_API_KEY=your_openai_api_key
-HUGGINGFACE_MODEL=facebook/bart-large-mnli
+OPENAI_MODEL=gpt-4o-mini
 
-# App Configuration
-REFRESH_INTERVAL_HOURS=24
+# Optional local database location
+DATA_FILE=applications.db

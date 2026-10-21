@@ -1,15 +1,12 @@
-# Core dependencies (required)
-streamlit
-pandas
-plotly
-imap-tools
-beautifulsoup4
-python-dotenv
-lxml
+# Core dependencies
+streamlit>=1.40
+pandas>=2.0
+plotly>=5.20
+imap-tools>=1.7
+beautifulsoup4>=4.12
+python-dotenv>=1.0
+lxml>=5.0
 
-# Optional AI dependencies (install as needed)
-# openai
-# transformers
-# torch
-# sentencepiece
-# streamlit-aggrid
+# Optional AI classification
+# Install this only if you want OpenAI classification.
+openai>=1.0
